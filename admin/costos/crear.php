@@ -7,7 +7,7 @@ require '../../config/db.php';
 <h2>➕ Nuevo costo adicional</h2>
 <form action="guardar.php" method="POST">
 
-    <label>Nombre</label>
+    <label>Name</label>
     <input type="text" name="nombre" placeholder="Ej: Grabado" required>
 
     <label>Tipo de costo</label>
