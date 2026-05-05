@@ -1,7 +1,7 @@
 <?php
 $host = 'localhost';
 $db   = 'sistema_productos';
-$user = 'root';
+$user = 'roo';
 $pass = '';
 
 try {
