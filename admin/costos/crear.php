@@ -16,7 +16,7 @@ require '../../config/db.php';
         <option value="compartido">Global (entre varios)</option>
     </select>
 
-    <label>Precio </label>
+    <label>Valor </label>
     <input type="number" name="precio" min="0" required>
 
 
