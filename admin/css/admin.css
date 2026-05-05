@@ -1,0 +1,219 @@
+* {
+    box-sizing: border-box;
+    font-family: 'Segoe UI', sans-serif;
+}
+
+body {
+    margin: 0;
+    background: #f4f6f9;
+}
+
+.admin-container {
+    display: flex;
+    min-height: 100vh;
+}
+
+/* SIDEBAR */
+.sidebar {
+    width: 220px;
+    background: #1f2937;
+    color: #fff;
+    padding: 20px;
+}
+
+.sidebar h2 {
+    margin-bottom: 20px;
+    font-size: 20px;
+}
+
+.sidebar a {
+    display: block;
+    color: #cbd5e1;
+    text-decoration: none;
+    padding: 10px;
+    border-radius: 6px;
+    margin-bottom: 5px;
+}
+
+.sidebar a:hover {
+    background: #374151;
+    color: #fff;
+}
+
+.sidebar a.active{
+    background: #374151;
+    color: #fff;
+}
+
+/* CONTENT */
+.content {
+    flex: 1;
+    padding: 30px;
+}
+
+h1 {
+    margin-bottom: 20px;
+}
+
+/* CARDS */
+.card {
+    background: #fff;
+    padding: 20px;
+    border-radius: 10px;
+    margin-bottom: 20px;
+    box-shadow: 0 2px 6px rgba(0,0,0,.05);
+}
+
+/* FORM */
+input, select, button {
+    width: 100%;
+    padding: 10px;
+    margin-top: 8px;
+    margin-bottom: 15px;
+}
+
+textarea {
+    width: 100%;
+    padding: 10px;
+    margin-top: 8px;
+    margin-bottom: 15px;
+}
+
+button {
+    background: #2563eb;
+    color: #fff;
+    border: none;
+    border-radius: 6px;
+    cursor: pointer;
+}
+
+button:hover {
+    background: #1d4ed8;
+}
+
+/* LIST */
+.categoria-item {
+    padding: 8px;
+    border-bottom: 1px solid #e5e7eb;
+}
+
+
+a {
+    text-decoration: none;
+    font-size: 18px;
+    margin-right: 8px;
+}
+
+a:hover {
+    opacity: 0.7;
+}
+
+table img {
+    height: 50px;
+    object-fit: cover;
+}
+
+.valores {
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    padding: 4px 10px;
+    margin: 3px;
+    font-size: 12px;
+    border-radius: 6px;
+    background-color: #f2f2f2;
+    border: 1px solid #ccc;
+    font-weight: 600;
+    white-space: nowrap;
+}
+
+/* =========================
+   TABLA ADMIN
+========================= */
+
+.admin-table {
+    width: 100%;
+    border-collapse: collapse;
+    background: #fff;
+    border-radius: 10px;
+    overflow: hidden;
+    font-size: 14px;
+}
+
+/* Encabezado */
+.admin-table thead {
+    background: #f1f5f9;
+}
+
+.admin-table th {
+    padding: 12px;
+    text-align: center;
+    font-weight: 700;
+    color: #1f2937;
+    border-bottom: 2px solid #e5e7eb;
+    white-space: nowrap;
+}
+
+/* Celdas */
+.admin-table td {
+    padding: 12px;
+    text-align: center;
+    vertical-align: middle;
+    border-bottom: 1px solid #e5e7eb;
+}
+
+/* Filas */
+.admin-table tbody tr:hover {
+    background: #eeefef;
+}
+
+/* Última fila sin borde */
+.admin-table tbody tr:last-child td {
+    border-bottom: none;
+}
+
+/* Acciones */
+.admin-table td a {
+    font-size: 18px;
+    margin: 0 4px;
+}
+
+/* Imagen producto */
+.admin-table img {
+    border-radius: 8px;
+}
+
+/* Columnas con mucho contenido */
+.admin-table td:nth-child(7),
+.admin-table td:nth-child(8),
+.admin-table td:nth-child(11) {
+    min-width: 140px;
+}
+
+/* COLUMNA PRECIOS */
+.col-precios {
+    min-width: 120px;
+    text-align: center;
+}
+
+/* PRECIO PRINCIPAL */
+.precio-base {
+    font-weight: 700;
+    color: #111;
+    font-size: 15px;
+}
+
+/* VARIANTES */
+.precios-variantes {
+    margin-top: 6px;
+    padding-top: 6px;
+    border-top: 1px dashed #ccc;
+}
+
+/* CADA PRECIO DE VARIANTE */
+.precio-variante {
+    display: block;
+    font-size: 13px;
+    color: #555;
+    line-height: 1.3;
+}
